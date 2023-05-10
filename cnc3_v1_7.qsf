@@ -1,0 +1,201 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions
+# and other software and tools, and its AMPP partner logic
+# functions, and any output files from any of the foregoing
+# (including device programming or simulation files), and any
+# associated documentation or information are expressly subject
+# to the terms and conditions of the Intel Program License
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# Date created = 14:47:56  November 27, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		cnc3_v1_7_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M16SCE144C8G
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:43:07  OCTOBER 21, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Standard Edition"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_location_assignment PIN_27 -to gen24
+set_location_assignment PIN_131 -to enc_Z[1]
+set_location_assignment PIN_130 -to enc_B[1]
+set_location_assignment PIN_127 -to enc_A[1]
+set_location_assignment PIN_126 -to enc_Z[0]
+set_location_assignment PIN_124 -to enc_B[0]
+set_location_assignment PIN_123 -to enc_A[0]
+set_location_assignment PIN_112 -to led_n
+set_location_assignment PIN_89 -to nbl[1]
+set_location_assignment PIN_100 -to nbl[0]
+set_location_assignment PIN_74 -to nadv
+set_location_assignment PIN_75 -to nwe
+set_location_assignment PIN_76 -to noe
+set_location_assignment PIN_93 -to ad[3]
+set_location_assignment PIN_92 -to ad[2]
+set_location_assignment PIN_77 -to ne
+set_location_assignment PIN_91 -to ad[1]
+set_location_assignment PIN_90 -to ad[0]
+set_location_assignment PIN_79 -to ad[15]
+set_location_assignment PIN_80 -to ad[14]
+set_location_assignment PIN_81 -to ad[13]
+set_location_assignment PIN_84 -to ad[12]
+set_location_assignment PIN_85 -to ad[11]
+set_location_assignment PIN_86 -to ad[10]
+set_location_assignment PIN_87 -to ad[9]
+set_location_assignment PIN_88 -to ad[8]
+set_location_assignment PIN_99 -to ad[7]
+set_location_assignment PIN_98 -to ad[6]
+set_location_assignment PIN_97 -to ad[5]
+set_location_assignment PIN_96 -to ad[4]
+set_location_assignment PIN_78 -to nirq
+set_location_assignment PIN_135 -to adc_sclk
+set_location_assignment PIN_141 -to adc_csn
+set_location_assignment PIN_140 -to adc_mosi
+set_location_assignment PIN_38 -to X[0]
+set_location_assignment PIN_39 -to X[1]
+set_location_assignment PIN_41 -to X[2]
+set_location_assignment PIN_43 -to X[3]
+set_location_assignment PIN_44 -to X[4]
+set_location_assignment PIN_48 -to Y[0]
+set_location_assignment PIN_50 -to Y[1]
+set_location_assignment PIN_52 -to Y[2]
+set_location_assignment PIN_54 -to Y[3]
+set_location_assignment PIN_55 -to Y[4]
+set_location_assignment PIN_45 -to U[0]
+set_location_assignment PIN_46 -to U[1]
+set_location_assignment PIN_47 -to U[2]
+set_location_assignment PIN_56 -to V[0]
+set_location_assignment PIN_57 -to V[1]
+set_location_assignment PIN_58 -to V[2]
+set_location_assignment PIN_21 -to wire_break
+set_location_assignment PIN_22 -to OK220
+set_location_assignment PIN_33 -to sig_in[0]
+set_location_assignment PIN_32 -to sig_in[1]
+set_location_assignment PIN_30 -to sig_in[2]
+set_location_assignment PIN_29 -to sig_in[3]
+set_location_assignment PIN_28 -to sig_in[4]
+set_location_assignment PIN_26 -to sig_in[5]
+set_location_assignment PIN_25 -to sig_in[6]
+set_location_assignment PIN_24 -to sig_in[7]
+set_location_assignment PIN_64 -to hv_ena
+set_location_assignment PIN_65 -to hv_lvl
+set_location_assignment PIN_62 -to pump_ena
+set_location_assignment PIN_61 -to estop
+set_location_assignment PIN_120 -to drum_fwd
+set_location_assignment PIN_118 -to drum_vel[0]
+set_location_assignment PIN_114 -to drum_vel[1]
+set_location_assignment PIN_113 -to drum_vel[2]
+set_location_assignment PIN_13 -to step
+set_location_assignment PIN_14 -to dir
+set_location_assignment PIN_15 -to sd_ena
+set_location_assignment PIN_111 -to current[0]
+set_location_assignment PIN_110 -to current[1]
+set_location_assignment PIN_106 -to current[2]
+set_location_assignment PIN_105 -to current[3]
+set_location_assignment PIN_102 -to current[4]
+set_location_assignment PIN_101 -to current[5]
+set_location_assignment PIN_70 -to gen_sclk
+set_location_assignment PIN_69 -to gen_load
+set_location_assignment PIN_66 -to gen_sdo
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name EXTERNAL_FLASH_FALLBACK_ADDRESS 00000000
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVCMOS"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_10 -to enc_A[2]
+set_location_assignment PIN_11 -to enc_B[2]
+set_location_assignment PIN_12 -to enc_Z[2]
+set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 6
+set_global_assignment -name EDA_SIMULATION_TOOL "QuestaSim (SystemVerilog)"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name FORCE_SSMCLK_TO_ISMCLK OFF
+set_global_assignment -name RELEASE_CLEARS_BEFORE_TRI_STATES ON
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_location_assignment PIN_132 -to adc_miso
+set_location_assignment PIN_7 -to ind_sclk
+set_location_assignment PIN_8 -to ind_load
+set_location_assignment PIN_6 -to ind_sdo
+set_location_assignment PIN_60 -to oe
+set_location_assignment PIN_121 -to res[1]
+set_location_assignment PIN_17 -to res[0]
+set_location_assignment PIN_122 -to res[2]
+set_location_assignment PIN_59 -to center_n
+set_location_assignment PIN_134 -to sd_oe_n
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH top_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME pls_cont_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id pls_cont_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME pls_cont_tb -section_id pls_cont_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME imit_enc_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id imit_enc_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME imit_enc_tb -section_id imit_enc_tb
+set_global_assignment -name SDC_FILE cnc.sdc
+set_global_assignment -name QIP_FILE main_pll.qip
+set_global_assignment -name EDA_TEST_BENCH_NAME top_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME top_tb -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/pls_cont_tb.sv -section_id pls_cont_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/imit_enc_tb.sv -section_id imit_enc_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/top_tb.sv -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/MCP3008.sv -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/FmcBus.sv -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/SN74HC595.sv -section_id top_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench/SN74HC165.sv -section_id top_tb
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to sig_in
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to wire_break
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to OK220
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to nwe
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to nbl
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to nadv
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to noe
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to ne
+set_instance_assignment -name PCI_IO ON -to ne
+set_instance_assignment -name PCI_IO ON -to noe
+set_instance_assignment -name PCI_IO ON -to nwe
+set_instance_assignment -name PCI_IO ON -to nadv
+set_instance_assignment -name PCI_IO ON -to ad
+set_instance_assignment -name PCI_IO ON -to nbl
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
