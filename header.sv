@@ -1,9 +1,9 @@
 `ifndef _header_
 `define _header_
 
-`define VER_TYPE (2'h2) // 0 - stable, 1 - alpha, 2 - beta
-`define FAC_VER (6'h0)
-`define FAC_REV (8'h3) // CNC3
+`define VER_TYPE (2'h1) // 0 - stable, 1 - alpha, 2 - beta
+`define FAC_VER (6'h3) // CNC3.1
+`define FAC_REV (8'h1)
 `define VER (8'h1)
 `define REV (7'h7)
 
